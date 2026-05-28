@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# Large checkpoints / model weights (exclude from git)
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+models/
